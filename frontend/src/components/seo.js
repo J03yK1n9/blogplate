@@ -71,11 +71,11 @@ function SEO({ description, lang, meta, title }) {
       link={[
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600",
+          href: "https://fonts.googleapis.com/css2?family=Baloo+2&family=Comfortaa:wght@700&family=DM+Mono:wght@400;500&display=swap",
         },
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Baloo+2&family=Comfortaa:wght@700&family=DM+Mono:wght@400;500&display=swap",
+          href: "https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600",
         },
   {
     rel: "stylesheet",

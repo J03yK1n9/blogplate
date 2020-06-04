@@ -6,17 +6,17 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import "../assets/css/main.css"
 import "../assets/css/font-awesome.min.css"
-import "../assets/js/jquery.min.js"
-import "../assets/js/browser.min.js"
-import "../assets/js/breakpoints.min.js"
-import "../assets/js/util.js"
-import "../assets/js/main.js"
-import "../assets/js/lineanime.js"
+// import "../assets/js/jquery.min.js"
+// import "../assets/js/browser.min.js"
+// import "../assets/js/breakpoints.min.js"
+// import "../assets/js/util.js"
+// import "../assets/js/main.js"
+// import "../assets/js/lineanime.js"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Not sure yet</h1>
+    <h1>Worksys</h1>
     <p> Welcome to the future.</p>
     <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim
             aliquet. Accumsan ac integer lobortis commodo ornare aliquet
@@ -28,11 +28,8 @@ const IndexPage = () => (
     {/* Banner */}
     <section id="banner">
       <div class="inner">
-        <h1>Worksys</h1>
-        <p>
-          A responsive business oriented template with a video background<br />
-          designed by <a href="https://j03yk1n9.web.app/">J03y K1n9</a>.
-        </p>
+        
+       
       </div>
       <video autoplay loop muted playsinline src="images/banner.mp4"></video>
 
@@ -276,9 +273,9 @@ const IndexPage = () => (
         </header>
         <div
           class="highlights"
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="1500"
+          // data-aos="fade-down"
+          // data-aos-easing="linear"
+          // data-aos-duration="1500"
         >
           <section>
             <div class="content">
@@ -643,7 +640,7 @@ const IndexPage = () => (
     
     
     {/* Activate AOS */}
-    {AOS.init()},
+    {/* {AOS.init()}, */}
 
     
     <Link to="/page-2/">Go to page 2</Link> <br />

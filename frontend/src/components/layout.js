@@ -10,16 +10,17 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+
 import Image from "../components/image"
 import SEO from "../components/seo"
 import "../assets/css/main.css"
 import "../assets/css/font-awesome.min.css"
-import "../assets/js/jquery.min.js"
-import "../assets/js/browser.min.js"
-import "../assets/js/breakpoints.min.js"
-import "../assets/js/util.js"
-import "../assets/js/main.js"
-import "../assets/js/lineanime.js"
+// import "../assets/js/jquery.min.js"
+// import "../assets/js/browser.min.js"
+// import "../assets/js/breakpoints.min.js"
+// import "../assets/js/util.js"
+// import "../assets/js/main.js"
+// import "../assets/js/lineanime.js"
 
 
 const Layout = ({ children }) => {

@@ -6,12 +6,12 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import "../assets/css/main.css"
 import "../assets/css/font-awesome.min.css"
-import "../assets/js/jquery.min.js"
-import "../assets/js/browser.min.js"
-import "../assets/js/breakpoints.min.js"
-import "../assets/js/util.js"
-import "../assets/js/main.js"
-import "../assets/js/lineanime.js"
+// import "../assets/js/jquery.min.js"
+// import "../assets/js/browser.min.js"
+// import "../assets/js/breakpoints.min.js"
+// import "../assets/js/util.js"
+// import "../assets/js/main.js"
+// import "../assets/js/lineanime.js"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -40,12 +40,9 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    <a class="logo" href="index.html"
-        ><img class="logo" src="./images/worksys_logo.png" alt="logo"
-      /></a>
-    <nav id="menu">
-    <a href="#menu">Menu</a>
-      <ul class="links">
+    <nav style={{display: `inline-block`}}>
+   
+      <ul style={{listStyle: `none`, display: `block`, verticalAlign: `baseline`, textDecorationColor: `gray`, fontFamily: `Comfortaa`}}>
       <li>
           <Link to="/">Home</Link>
         </li>
