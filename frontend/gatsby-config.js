@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Site`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Blogplate`,
+    description: `This is a template that can be used for both static and dynamic sites.`,
     author: `J03y K1n9`,
   },
   plugins: [

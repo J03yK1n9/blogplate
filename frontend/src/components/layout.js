@@ -11,8 +11,8 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 
-import Image from "../components/image"
-import SEO from "../components/seo"
+// import Image from "../components/image"
+// import SEO from "../components/seo"
 import "../assets/css/main.css"
 import "../assets/css/font-awesome.min.css"
 // import "../assets/js/jquery.min.js"
@@ -65,16 +65,16 @@ const Layout = ({ children }) => {
           <section>
             <h4>Sem turpis amet semper</h4>
             <ul class="alt">
-              <li><a href="#">WORKSYS LIMITED.</a></li>
+              <li><a href="#">WORK LIMITED.</a></li>
               <li>
                 <a href="#"
-                  >+254 738-487-313 / +254 721-377-048 / +254 722-980-451</a
+                  >+254 712-345-678 / +254 712-345-678 / +254 712-345-678</a
                 >
               </li>
-              <li><a href="#">info@worksys.co.ke</a></li>
+              <li><a href="#">info@work.co.ke</a></li>
               <li>
                 <a href="#"
-                  >107 Moi Drive Road Opp Chief Office <br />Nairobi, Kenya.</a
+                  >Somwhere Drive Road Opp Chief's Office <br />Nairobi, Kenya.</a
                 >
               </li>
             </ul>
@@ -99,7 +99,7 @@ const Layout = ({ children }) => {
         </div>
 
         <div class="footer-credit copyright">
-          <hr />
+          
           <p>
             Copyright &copy;
             {/* Script for getting the current year */}

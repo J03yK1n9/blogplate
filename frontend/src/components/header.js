@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
   <header
   id="header"
     style={{
-      background: `rebeccapurple`,
+      background: `transparent`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `gray`,
             textDecoration: `none`,
           }}
         >
@@ -40,7 +40,15 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-    <nav style={{display: `inline-block`}}>
+    <nav>
+        {/* <a href="#menu">Menu</a> */}
+       
+        <Link to="/">Home</Link>
+        <Link to="/solutions">Our solutions</Link>
+        <Link to="/contact">Contact us</Link>
+      
+      </nav>
+    {/* <nav style={{display: `inline-block`}}>
    
       <ul style={{listStyle: `none`, display: `block`, verticalAlign: `baseline`, textDecorationColor: `gray`, fontFamily: `Comfortaa`}}>
       <li>
@@ -53,8 +61,18 @@ const Header = ({ siteTitle }) => (
           <Link to="/contact">Contact us</Link>
         </li>
       </ul>
+    </nav> */}
+    <>
+  <nav id="menu">
+      <ul class="links">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/solutions">Our solutions</Link></li>
+        <li><Link to="/contact">Contact us</Link></li>
+      </ul>
     </nav>
+    </>
   </header>
+  
 )
 
 Header.propTypes = {
